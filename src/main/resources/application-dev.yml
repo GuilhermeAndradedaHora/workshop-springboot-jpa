@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springboot_course
+    username: postgres
+    password: "5988"
+  jpa:
+    properties:
+      hibernate:
+        jdbc.lob.non_contextual_creation: true
+        format_sql: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
